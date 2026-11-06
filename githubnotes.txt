@@ -1,0 +1,99 @@
+## GitHub Notes – Explanation
+
+GitHub Notes generally means using GitHub to create, store, organize, and manage notes in a repository.
+
+GitHub isn't traditionally a note-taking app like Notion or Evernote, but it can work very well as a personal knowledge base.
+
+### 1. How it works
+
+You create a GitHub repository and store notes as Markdown (`.md`) files.
+
+Example structure:
+
+text
+
+```text
+my-notes/
+│
+├── README.md
+├── programming/
+│   ├── python.md
+│   ├── java.md
+│   └── javascript.md
+│
+├── technology/
+│   ├── git.md
+│   └── github.md
+│
+└── interview/
+    ├── questions.md
+    └── answers.md
+```
+
+### 2. What is Markdown?
+
+Markdown is a simple formatting language used to write structured documents.
+
+Example:
+
+markdown
+
+````markdown
+# Python Notes
+
+## Variables
+
+Variables store data.
+
+```python
+name = "John"
+age = 25
+````
+
+## Data Types
+
+- Integer
+- String
+- Float
+- Boolean
+
+```
+
+GitHub automatically displays Markdown files in a readable format.
+
+### 3. Useful GitHub features for notes
+
+| Feature | Purpose |
+|---|---|
+| Repositories | Organize notes |
+| Markdown | Format notes |
+| Commits | Track changes |
+| Branches | Experiment with notes |
+| Issues | Maintain to-do lists |
+| Wiki | Create documentation |
+| Gists | Save small notes and code snippets |
+
+### 4. Benefits
+
+- Access notes from anywhere.
+- Keep a history of changes.
+- Back up notes online.
+- Organize notes by topics.
+- Share notes with others.
+- Maintain programming and interview preparation notes.
+
+### 5. How to start
+
+1. Visit <Link url="https://github.com" title="GitHub"/>.
+2. Create an account or sign in.
+3. Create a new repository called `my-notes`.
+4. Add a `README.md` file.
+5. Start writing notes using Markdown.
+6. Commit and save your changes.
+
+<AsyncImageGroup query={["GitHub repository README markdown rendered example","GitHub markdown editing interface repository"]} aspectRatio="5:4" layout="carousel"/>
+
+**My recommendation:** Use GitHub as a personal developer notebook for programming notes, technical concepts, coding examples, interview questions, and project documentation.
+
+You can gradually build your own searchable knowledge library.
+```
